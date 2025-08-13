@@ -33,7 +33,7 @@ const handleApply = () => {
         <div class="relative rounded-lg overflow-hidden mb-4">
             <UCarousel ref="carouselRef" v-slot="slotProps" :items="items" :ui="{ item: 'basis-full' }"
                 class="rounded-lg overflow-hidden" indicators>
-                <img v-if="slotProps?.item" :src="slotProps.item" class="w-full h-48 object-cover" draggable="false">
+                <img v-if="slotProps?.item" :src="slotProps.item" class="w-full h-64 object-cover" draggable="false">
             </UCarousel>
         </div>
     </div>
