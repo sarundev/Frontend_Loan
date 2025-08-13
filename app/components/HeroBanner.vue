@@ -4,10 +4,8 @@ import { ref, onMounted } from 'vue'
 const emit = defineEmits(['apply'])
 
 const items = [
-    'https://admin-api.online/storage/sliders/slider-1731564632.jpg',
-    'https://admin-api.online/storage/sliders/slider-1731564199.jpg',
-    'https://admin-api.online/storage/sliders/slider-1731564528.jpg',
-    'https://admin-api.online/storage/sliders/slider-1731564708.jpg',
+    '/images/pic.jpg',
+    '/images/pic1.jpg',
 ]
 
 const carouselRef = ref()
